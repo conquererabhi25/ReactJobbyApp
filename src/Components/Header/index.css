@@ -1,0 +1,37 @@
+.nav-bar-ul {
+  display: flex;
+  list-style: none;
+  background-color: #272727;
+  padding: 10px;
+  justify-content: space-between;
+}
+.logo-img {
+  height: 8vh;
+  width: 10vw;
+}
+.menu-option {
+  display: flex;
+}
+.logout-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 6vw;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.link-style {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}

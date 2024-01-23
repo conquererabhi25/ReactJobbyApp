@@ -1,0 +1,131 @@
+.job-search-functionalities {
+  display: flex;
+  flex-grow: 1;
+}
+
+.job-search-functionalities {
+  padding: 15px;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  width: 22vw;
+  border-radius: 10px;
+}
+
+.profile-heading {
+  font-size: 20px;
+  color: #6366f1;
+}
+
+.divison-line {
+  width: 22vw;
+  margin-top: 15px;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.filter-unordered-list {
+  color: #ffffff;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  margin-top: 20px;
+}
+.input-element {
+  margin-right: 5px;
+}
+.ul-div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.job-filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products-details-loader-container {
+  align-self: center;
+}
+
+.logout-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 6vw;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+
+.job-section-loader {
+  display: flex;
+  height: 80vh;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+}
+.aboutJobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-div {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  width: 80vw;
+}
+
+.job-failure-img {
+  height: 50vh;
+  width: 50vw;
+}
+
+.logout-button-2 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 6vw;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+.NoJob-found {
+  color: #ffffff;
+}
+.ul-div-1 {
+  overflow-y: scroll;
+}
+
+.jobs-link-style {
+  text-decoration: none;
+}

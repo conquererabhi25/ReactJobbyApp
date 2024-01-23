@@ -1,0 +1,253 @@
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  height: 220vh;
+}
+.job-search-functionalities {
+  display: flex;
+  flex-grow: 1;
+}
+
+.job-search-functionalities {
+  padding: 15px;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  width: 22vw;
+  border-radius: 10px;
+}
+
+.profile-heading {
+  font-size: 20px;
+  color: #6366f1;
+}
+
+.divison-line {
+  width: 22vw;
+  margin-top: 15px;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.filter-unordered-list {
+  color: #ffffff;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  margin-top: 20px;
+}
+.input-element {
+  margin-right: 5px;
+}
+.ul-div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.job-filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products-details-loader-container {
+  align-self: center;
+}
+
+.logout-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 6vw;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+
+.job-section-loader {
+  display: flex;
+  height: 80vh;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+}
+.aboutJobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-div {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  width: 80vw;
+}
+
+.job-failure-img {
+  height: 50vh;
+  width: 50vw;
+}
+
+.logout-button-2 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 6vw;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+.NoJob-found {
+  color: #ffffff;
+}
+.ul-div-1 {
+  overflow-y: scroll;
+}
+
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobSpecific-Div {
+  align-self: center;
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 25px;
+  width: 90vw;
+}
+
+.description-container {
+  margin-bottom: 12px;
+}
+
+.skill-ul-list {
+  align-self: center;
+  display: flex;
+  list-style: none;
+  width: 70vw;
+  flex-wrap: wrap;
+}
+.skill-list {
+  display: flex;
+  margin: 8px;
+  justify-content: center;
+}
+
+.skill-image {
+  height: 40px;
+  width: 40px;
+}
+
+.title-3 {
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.life-at-company-info {
+  display: flex;
+  width: 80vw;
+}
+
+.LifeAtJob-image {
+  height: 30vh;
+  width: 50vw;
+}
+
+.description-para {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.description-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.similar-job-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  align-self: center;
+}
+
+.simlilar-job-unoredred-list {
+  display: flex;
+  list-style: none;
+  background-color: #000000;
+}
+
+.similar-job-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.jobSpecific-Div-similar-job {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.similar-job-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.description-title-3 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.anchor-element {
+  color: #4f46e5;
+}
+
+.success-container {
+  align-self: center;
+}
+.products-details-loader-container {
+  align-self: center;
+  justify-self: center;
+}
+.failure-div {
+  align-self: center;
+}

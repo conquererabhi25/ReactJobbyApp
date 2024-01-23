@@ -1,0 +1,90 @@
+.jobItemMain-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+  width: 60vw;
+}
+.searchBar {
+  border: 1px solid #ffffff;
+  height: 6vh;
+  border-radius: 4px;
+  padding: 5px;
+  width: 23vw;
+  margin-bottom: 15px;
+}
+.searchInput {
+  width: 20vw;
+  height: 5vh;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+.searchButton {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+.jobTitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.eachJobData-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+.unordered-list {
+  list-style: none;
+  overflow-y: scroll;
+  width: 70vw;
+}
+.companyLogoImg {
+  height: 6vh;
+  width: 3vw;
+}
+.company-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.rating-div {
+  display: flex;
+}
+.jobsList {
+  background-color: #272727;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.text-color {
+  color: #ffffff;
+  font-size: 12px;
+}
+.location-div {
+  display: flex;
+  justify-content: space-between;
+}
+.part-1 {
+  display: flex;
+}
+.part-2 {
+  display: flex;
+  margin-right: 10px;
+}
+.job-text {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 12px;
+}
+.division-line {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
